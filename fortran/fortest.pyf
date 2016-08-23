@@ -4,6 +4,7 @@
 python module _fortest ! in 
     interface  ! in :_fortest
         subroutine testfunc(x,y) ! in :_fortest:fortest.f90
+            threadsafe 
             integer intent(in) :: x
             integer intent(out) :: y
         end subroutine testfunc
