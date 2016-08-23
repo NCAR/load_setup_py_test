@@ -29,6 +29,6 @@ test:
   imports:
     - fortest 
   #commands:
-    #- cd $SRC_DIR/src/examples && for file in xy2.py; do echo $file ; nosetests $file ; done | tee pyngl-test.log
+    #- cd $SRC_DIR/src/examples && for file in xy2.py; do echo $file ; nosetests $file ; done | tee fortest-test.log
 
 
