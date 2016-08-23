@@ -1,0 +1,14 @@
+!    -*- f90 -*-
+! Note: the context of this file is case sensitive.
+
+python module _fortest ! in 
+    interface  ! in :_fortest
+        subroutine testfunc(x,y) ! in :_fortest:fortest.f90
+            integer intent(in) :: x
+            integer intent(out) :: y
+        end subroutine testfunc
+    end interface 
+end python module _fortest
+
+! This file was auto-generated with f2py (version:2).
+! See http://cens.ioc.ee/projects/f2py2e/
